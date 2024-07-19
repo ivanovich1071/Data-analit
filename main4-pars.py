@@ -34,7 +34,7 @@ print(f'Средняя цена: {mean_price:.2f} руб.')
 
 # Построение гистограммы
 plt.hist(df['Price'], bins=20, edgecolor='black')
-plt.title('Гистограмма цен на диваны')
+plt.title('Гистограмма цен на диваны прямые')
 plt.xlabel('Цена, руб.')
-plt.ylabel('Количество')
+plt.ylabel('Количество наименований')
 plt.show()
